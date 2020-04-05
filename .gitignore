@@ -1,6 +1,6 @@
 .idea/
-**/*.js.map
-**/*.js
-**/*.d.ts
+**/**/*.js.map
+**/**/*.js
+**/**/*.d.ts
 node_modules
 dist/

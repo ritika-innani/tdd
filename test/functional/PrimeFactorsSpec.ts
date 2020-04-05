@@ -1,5 +1,5 @@
 import {expect} from "chai";
-import {PrimeFactors} from "../src/PrimeFactors";
+import {PrimeFactors} from "../../src/functional/PrimeFactors";
 
 function factorsAssert(n: number, expectedResult:Array<number>) {
     it("should assert that factors of " + n + " = " + expectedResult, () => {
