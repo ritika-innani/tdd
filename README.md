@@ -15,4 +15,10 @@ Setup Repo -
     npm install -g gulp-cli
     npm install --save-dev gulp gulp-typescript
     create gulp task in gulpfile.js
-6. create a src and test directory and add a test file to src folder.
+6. create a src and test directory and add a test file to src folder. check gulp task
+
+
+Start with writing tests -
+1. setup ts-node by installing it - npm install ts-node
+2. configure test command - node_modules/mocha/bin/_mocha --require ts-node/register <path to file>
+3. npm run test
