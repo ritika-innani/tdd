@@ -1,0 +1,30 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "example for test driven development",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritika-innani/tdd.git"
+  },
+  "author": "ritika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritika-innani/tdd/issues"
+  },
+  "homepage": "https://github.com/ritika-innani/tdd#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.11.0",
+    "@types/sinon": "^9.0.0",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "mocha": "^7.1.1",
+    "typescript": "^3.8.3"
+  }
+}
