@@ -1,14 +1,12 @@
 export class PrimeFactors {
     public static factorsOf(n: number) {
-        var factors: Array<number> = [];
-        if (n > 1){
-            while(n%2 === 0) {
-                factors.push(2);
-                n /= 2;
+        var factors: Array<number> = [], quotient: number = n, divisor: number = 2;
+        while (quotient > 1){
+            while(quotient % divisor === 0) {
+                factors.push(divisor);
+                quotient /= divisor;
             }
-            if (n>1) {
-                factors.push(n);
-            }
+            divisor++;
         }
         return factors;
     }

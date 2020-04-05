@@ -24,8 +24,7 @@ describe("Prime factors", ()=>{
     factorsAssert(2, [2]);
     factorsAssert(3, [3]);
     factorsAssert(4, [2, 2]);
-    factorsAssert(5, [5]);
-    factorsAssert(6, [2, 3]);
-    factorsAssert(7, [7]);
-    factorsAssert(8, [2, 2, 2]);
+    factorsAssert(27, [3, 3, 3]);
+    factorsAssert(2310, [2, 3, 5, 7, 11]);
+    factorsAssert(2*2*3*5*7*7*11*13, [2, 2, 3, 5, 7, 7, 11, 13]);
 });
