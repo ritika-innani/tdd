@@ -4,7 +4,7 @@
   "description": "example for test driven development",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/_mocha --require ts-node/register ./test/PrimeFactorsSpec.ts"
+    "test": "node_modules/mocha/bin/_mocha --require ts-node/register test/**/*Spec.ts"
   },
   "repository": {
     "type": "git",
